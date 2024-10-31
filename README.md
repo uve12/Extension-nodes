@@ -52,7 +52,7 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 
 👉 Sign up : https://app.gradient.network/signup?code=WD92ZM  
 
-🔗 Use Ref Code: WD92ZM
+🔗 Use Ref Code: **WD92ZM**
 
 📲 Install the Extension: https://chromewebstore.google.com/detail/gradient-sentry-node/caacbgbklghmpodbdafajbgdnegacfmo
 
@@ -72,7 +72,7 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
   
 💼 Backed by DragonFly, Wintermute, Solana DePIN
 
-🔗 Ref Code: g5ob61
+🔗 Ref Code: **g5ob61**
 
 📲 Extension : https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp)  
 
@@ -86,7 +86,7 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 
 📲 Extension : https://chromewebstore.google.com/detail/functor-node/gahmmgacnfeohncipkjfjfbdlpbfkfhi
 
-🔒 Private Access Code: cm1qft14owf8mqi1b9dxmzehk  
+🔒 Private Access Code: **cm1qft14owf8mqi1b9dxmzehk**
 
 ---
 
@@ -96,7 +96,7 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 
 🏆 Join Here: https://teneo.pro/community-node 
 
-💰 Ref Code: itMeb  for $2500 extra rewards!
+💰 Ref Code: **itMeb**  for $2500 extra rewards!
 
 ```
 wget https://github.com/uve12/Extension-nodes/raw/refs/heads/main/teneo-community-node-v0.2.zip
