@@ -49,8 +49,11 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 ### Gradient_HQ Sentry Nodes 
 
 🌐Backed by Solana, invested by MulticoinCap, PanteraCapital, &  Sequoia💼
+
 👉 Sign up : https://app.gradient.network/signup?code=WD92ZM  
+
 🔗 Use Ref Code: WD92ZM
+
 📲 Install the Extension: https://chromewebstore.google.com/detail/gradient-sentry-node/caacbgbklghmpodbdafajbgdnegacfmo
 
 ---
@@ -68,8 +71,11 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 ### 🔥 Dawninternet Validator | $18M Funding 🚀
   
 💼 Backed by DragonFly, Wintermute, Solana DePIN
+
 🔗 Ref Code: g5ob61
+
 📲 Extension : https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp)  
+
 📺 Setup Guide: [Watch Here](https://youtu.be/PCnIyc9IMrE)
 
 ---
@@ -77,28 +83,20 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 ### 💻 FunctorNetwork – Secure Nodes  
 
 🔗 Sign up : https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm1qft14owf8mqi1b9dxmzehk
+
 📲 Extension : https://chromewebstore.google.com/detail/functor-node/gahmmgacnfeohncipkjfjfbdlpbfkfhi
 
 🔒 Private Access Code: cm1qft14owf8mqi1b9dxmzehk  
 
 ---
 
-### 🔗 teneo_protocol : Data Ownership Protocol with Community Nodes 
+### 🔗 teneo_protocol : 
 
-🏆  Join Here: https://teneo.pro/community-node 
+📲 Data Ownership Protocol with Community Nodes 
+
+🏆 Join Here: https://teneo.pro/community-node 
+
 💰 Ref Code: itMeb  for $2500 extra rewards!
-
----
-
-### 🎮 nodepay_ai – Monetize your unused internet bandwidth! 💵  
-🌟 Earn passively while staying online!  
-👥 Invite friends & boost your income!  
-🔗 Sign up : https://app.nodepay.ai/register?ref=QBha0RHRaQWjjCi
-📲 Extension : https://chromewebstore.google.com/detail/nodepay-extension/lgmpfmgeabnnlemejacfljbmonaomfmm
-
----
-
-### Teneo community node
 
 ```
 wget https://github.com/uve12/Extension-nodes/raw/refs/heads/main/teneo-community-node-v0.2.zip
@@ -109,6 +107,24 @@ sudo apt install unzip
 ```
 unzip teneo-community-node-v0.2
 ```
+
+---
+
+### 🎮 nodepay_ai – Monetize your unused internet bandwidth! 💵  
+
+🌟 Earn passively while staying online!  
+
+👥 Invite friends & boost your income!  
+
+🔗 Sign up : https://app.nodepay.ai/register?ref=QBha0RHRaQWjjCi
+
+📲 Extension : https://chromewebstore.google.com/detail/nodepay-extension/lgmpfmgeabnnlemejacfljbmonaomfmm
+
+---
+
+### Teneo community node
+
+
 
 First run on normal system before setting up on VPS (recommended)
 
