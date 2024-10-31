@@ -43,90 +43,75 @@ VPS 4 : [Contabo: Cloud VPS 4](https://www.anrdoezrs.net/click-101278318-1379647
 wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/extnodes.sh && chmod +x extnodes.sh && ./extnodes.sh
 ```
 
-Here’s an alternative method to install and run Chromium using Docker, based on the `lscr.io/linuxserver/chromium:latest` image:
+#Gradient 🌐 – Backed by Solana, invested by MulticoinCap, PanteraCapital, &  Sequoia💼
 
-###  1: Update VPS
-```bash
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt install curl -y
-sudo apt install ca-certificates
+💡 
+### Gradient_HQ Sentry Nodes 
+
+👉 Sign up : https://app.gradient.network/signup?code=WD92ZM  
+🔗 Use Ref Code: WD92ZM
+📲 Install the Extension: https://chromewebstore.google.com/detail/gradient-sentry-node/caacbgbklghmpodbdafajbgdnegacfmo
+
+---
+
+🔗 
+### blockmesh_xyz Network (Data Project with **EclipseFND**)
+  
+🌐 Register : https://app.blockmesh.xyz/register?invite_code=7d29057f-d55f-4964-9a66-e3451134c2cd
+
+📲 Extension : https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp
+
+---
+
+ 
+### 🔥 Dawninternet Validator | $18M Funding 🚀
+  
+💼 Backed by DragonFly, Wintermute, Solana DePIN
+🔗 Ref Code: g5ob61
+📲 Extension : https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp)  
+📺 Setup Guide: [Watch Here](https://youtu.be/PCnIyc9IMrE)
+
+---
+
+### 💻 FunctorNetwork – Secure Nodes  
+
+🔗 Sign up : https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm1qft14owf8mqi1b9dxmzehk
+📲 Extension : https://chromewebstore.google.com/detail/functor-node/gahmmgacnfeohncipkjfjfbdlpbfkfhi
+
+🔒 Private Access Code: cm1qft14owf8mqi1b9dxmzehk  
+
+---
+
+### 🔗 teneo_protocol : Data Ownership Protocol with Community Nodes 
+
+🏆  Join Here: https://teneo.pro/community-node 
+💰 Ref Code: itMeb  for $2500 extra rewards!
+
+---
+
+### 🎮 nodepay_ai – Monetize your unused internet bandwidth! 💵  
+🌟 Earn passively while staying online!  
+👥 Invite friends & boost your income!  
+🔗 Sign up : https://app.nodepay.ai/register?ref=QBha0RHRaQWjjCi
+📲 Extension : https://chromewebstore.google.com/detail/nodepay-extension/lgmpfmgeabnnlemejacfljbmonaomfmm
+
+---
+
+### Teneo community node
+
+```
+wget https://github.com/uve12/Extension-nodes/raw/refs/heads/main/teneo-community-node-v0.2.zip
+```
+```
+sudo apt install unzip
+```
+```
+unzip teneo-community-node-v0.2
 ```
 
-###  2: Install Docker
-```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+First run on normal system before setting up on VPS (recommended)
 
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-docker version
-```
-###  3: Install docker compose
-```
-VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
 
-curl -L "https://github.com/docker/compose/releases/download/"$VER"/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
-chmod +x /usr/local/bin/docker-compose
-docker-compose --version
-```
-
-### 4. Create a Project Directory:
-```bash
-mkdir chromium
-cd chromium
-```
-
-### 5. Create a `docker-compose.yml` File:
-```bash
-nano docker-compose.yml
-```
-
-### 6. Paste This Docker Compose Configuration:
-
-```yaml
-version: "3.8"
-services:
-  chromium:
-    image: lscr.io/linuxserver/chromium:latest
-    container_name: chromium_browser
-    environment:
-      - PUID=1000  # User ID for file permissions
-      - PGID=1000  # Group ID for file permissions
-      - TZ=Europe/Berlin  # Adjust timezone
-      - CUSTOM_USER=your_username  # Set your own username
-      - PASSWORD=your_password  # Set your password
-      - CHROME_CLI=https://www.google.com  # Optional: Default starting page
-    ports:
-      - "3050:3000"  # Adjust ports if necessary
-      - "3051:3001"
-    security_opt:
-      - seccomp:unconfined
-    volumes:
-      - /root/chromium/config:/config  # Config directory for Chromium
-    shm_size: "1gb"  # Prevents crashes by giving the container enough shared memory
-    restart: unless-stopped  # Automatically restart on failures or reboots
-```
-
-### 7. Save and Exit:
-Save the file by pressing `Ctrl + X`, then `Y`, and press `Enter`.
-
-### 8. Start the Container:
-Run the following command to spin up the Chromium container:
-```bash
-docker-compose up -d
-```
-
-### 9. Access Chromium:
-Open your browser and visit:
-
-http://<VPS_IP>:3050
-
-Or
-
-https://<VPS_IP>:3051
-
-You can now access Chromium remotely via the VNC interface with your set username and password.
 
 
