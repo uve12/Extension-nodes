@@ -43,19 +43,20 @@ VPS 4 : [Contabo: Cloud VPS 4](https://www.anrdoezrs.net/click-101278318-1379647
 wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/extnodes.sh && chmod +x extnodes.sh && ./extnodes.sh
 ```
 
-#Gradient 🌐 – Backed by Solana, invested by MulticoinCap, PanteraCapital, &  Sequoia💼
+## List of Extension Nodes – 
 
-💡 
+
 ### Gradient_HQ Sentry Nodes 
 
+🌐Backed by Solana, invested by MulticoinCap, PanteraCapital, &  Sequoia💼
 👉 Sign up : https://app.gradient.network/signup?code=WD92ZM  
 🔗 Use Ref Code: WD92ZM
 📲 Install the Extension: https://chromewebstore.google.com/detail/gradient-sentry-node/caacbgbklghmpodbdafajbgdnegacfmo
 
 ---
 
-🔗 
-### blockmesh_xyz Network (Data Project with **EclipseFND**)
+
+### 🔗 blockmesh_xyz Network (Data Project with **EclipseFND**)
   
 🌐 Register : https://app.blockmesh.xyz/register?invite_code=7d29057f-d55f-4964-9a66-e3451134c2cd
 
