@@ -1,18 +1,23 @@
 #!/bin/bash
 
-# Update the package list and install figlet
-echo "Installing figlet..."
-sudo apt-get update && sudo apt-get install -y figlet
+#!/bin/bash
 
 # Define color codes
-CYAN='\033[0;36m'
+RED='\033[0;31m'
 GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+WHITE='\033[1;37m'
 RESET='\033[0m' # Reset color
 
-# Print a colorful ASCII art header
+# Print "CRYPTO CONSOLE" with vibrant colors
 echo -e "${CYAN}=============================="
-figlet -f slant "${GREEN}CRYPTO CONSOLE${RESET}"
+echo -e "       ${GREEN}CRYPTO CONSOLE${CYAN}        "
 echo -e "${CYAN}==============================${RESET}"
+
+# Your script code goes here
+
 
 # Ask the user to follow on Twitter
 echo "Please follow us at: https://x.com/cryptoconsol"
@@ -91,4 +96,4 @@ EOF
 echo "Starting Chromium container..."
 docker-compose up -d
 
-echo "Chromium container setup completed! You can access it via the configured ports (3050:3000, 3051:3001) ex http:<ipaddress>:3050 ."
+echo "Chromium container setup completed! You can access it via the configured ports (3050:3000, 3051:3001) ex http://<ipaddress>:3050 ."
