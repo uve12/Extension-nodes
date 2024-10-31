@@ -40,17 +40,7 @@ VPS 4 : [Contabo: Cloud VPS 4](https://www.anrdoezrs.net/click-101278318-1379647
 
 ## 1-click Script
 ```
-git clone https://github.com/uve12/Extension-nodes.git
-cd Extension-nodes
-```
-Make executable:
-
-```
-chmod +x extnodes.sh
-```
-Start the Script :
-```
-./extnodes.sh
+wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/extnodes.sh && chmod +x extnodes.sh && ./extnodes.sh
 ```
 
 Here’s an alternative method to install and run Chromium using Docker, based on the `lscr.io/linuxserver/chromium:latest` image:
