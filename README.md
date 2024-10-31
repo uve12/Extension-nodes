@@ -38,6 +38,20 @@ VPS 4 : [Contabo: Cloud VPS 4](https://www.anrdoezrs.net/click-101278318-1379647
 
 ---
 
+## 1-click Script
+```
+git clone https://github.com/uve12/Extension-nodes.git
+cd Extension-nodes
+```
+Make executable:
+
+```
+chmod +x extnodes.sh
+```
+Start the Script :
+```
+./extnodes.sh
+```
 
 Here’s an alternative method to install and run Chromium using Docker, based on the `lscr.io/linuxserver/chromium:latest` image:
 
@@ -125,9 +139,4 @@ https://<VPS_IP>:3051
 
 You can now access Chromium remotely via the VNC interface with your set username and password.
 
-### System Requirements:
-- **CPU:** 2 Core or more.
-- **RAM:** At least 2GB.
-- **Disk:** 10GB of storage for Docker and Chromium.
-- **Ports:** Ensure ports `3050` and `3051` (or your selected ports) are open in the firewall.
 
