@@ -98,6 +98,10 @@ wget https://raw.githubusercontent.com/uve12/Extension-nodes/refs/heads/main/ext
 
 💰 Ref Code: **itMeb**  for $2500 extra rewards!
 
+📲 Extension : https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm
+
+
+
 ```
 wget https://github.com/uve12/Extension-nodes/raw/refs/heads/main/teneo-community-node-v0.2.zip
 ```
