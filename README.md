@@ -20,7 +20,7 @@ Subscribe : [Crypto Console Youtube](https://www.youtube.com/@cryptoconsole)
 |--------------|-------------------------|
 | **CPU**      | 4 Cores                 |
 | **RAM**      | 4 GB                    | 
-| **Disk**     | 10   GB  SSD            |
+| **Disk**     | over 10 gb SSD          |
 
 ---
 
