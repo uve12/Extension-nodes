@@ -87,7 +87,7 @@ services:
     security_opt:
       - seccomp:unconfined
     volumes:
-      - ~/chromium/config:/config  # Config directory for Chromium
+      - /root/chromium/config:/config  # Config directory for Chromium
     shm_size: "1gb"  # Prevents crashes by giving the container enough shared memory
     restart: unless-stopped  # Automatically restart on failures or reboots
 EOF
