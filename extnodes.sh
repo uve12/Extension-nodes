@@ -70,7 +70,6 @@ cd ~/chromium
 
 echo "Creating docker-compose.yml..."
 cat <<EOF > docker-compose.yml
-version: "3.8"
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
@@ -78,7 +77,7 @@ services:
     environment:
       - PUID=1000  # User ID for file permissions
       - PGID=1000  # Group ID for file permissions
-      - TZ=Europe/Berlin  # Adjust timezone
+      - TZ=Europe/London  # Adjust timezone
       - CUSTOM_USER=${custom_user}  # Set your own username
       - PASSWORD=${password}  # Set your password
       - CHROME_CLI=https://www.google.com  # Optional: Default starting page
